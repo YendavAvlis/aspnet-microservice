@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{FE39
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{9EBF6270-2D87-4992-89AB-40EFF4C7526F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Catalog.API\Catalog.API.csproj", "{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,21 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Release|x64.Build.0 = Release|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9EBF6270-2D87-4992-89AB-40EFF4C7526F} = {FE398DEA-48ED-45D2-9DC1-566EF57D580A}
+		{BE1C101F-E75D-4B32-A4EE-B7F8597514C5} = {9EBF6270-2D87-4992-89AB-40EFF4C7526F}
 	EndGlobalSection
 EndGlobal
